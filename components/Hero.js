@@ -38,7 +38,7 @@ const Hero = () => {
             {/* full card */}
             <section className="mt-3">
               {/* img */}
-              <div className="w-full bg-green-300 h-[450px]" />
+              <div className="w-full bg-gray-500 h-[450px]" />
               <div className="bg-white">
                 {/* top */}
                 <div className=""></div>
