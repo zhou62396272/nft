@@ -5,7 +5,7 @@ const Card = () => {
     <div className="relative z-10 px-6 text-gray-800 bg-gray-100 ">
       <h1 className="font-serif text-2xl">Latest artwork </h1>
 
-      <section className="mt-3 duration-1000 ease-in-out shadow-xl hover:-translate-y-1">
+      <section className="mt-3 duration-700 ease-in-out shadow-xl hover:-translate-y-1">
         {/* img */}
         <div className="w-full bg-gray-500 h-[450px]" />
         <div className="bg-white">
