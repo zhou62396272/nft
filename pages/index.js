@@ -81,7 +81,17 @@ export default function Home() {
       </Head>
       <Header />
       <Hero />
-      <Card />
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+        {nfts.map((nft, i) => (
+          <Card
+            key={i}
+            image={nft.image}
+            description={nft.description}
+            name={nft.name}
+            price={nft.price}
+          />
+        ))}
+      </div>
     </div>
   );
 }
