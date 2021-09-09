@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="flex items-center justify-between bg-gray-100 ">
+    <div className="flex items-center justify-between bg-gray-100 shadow-md ">
       <h1 className="px-3 py-3.5 font-serif text-gray-700 text-3xl hover:bg-gray-200 cursor cursor-pointer">
         KnownOrigin.
       </h1>

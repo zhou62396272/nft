@@ -14,7 +14,7 @@ const Hero = () => {
         />
       </div>
       <div className="relative z-10">
-        <div className="px-6 text-gray-200 md:px-20 -mt-96">
+        <div className="px-6 text-gray-200 md:px-14 lg:px-20 -mt-96">
           {/* Hero */}
           <h1 className="-mb-2 font-serif text-5xl leading-tight md:text-7xl">
             Discover
