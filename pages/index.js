@@ -6,6 +6,7 @@ import Web3Modal from "web3modal";
 import NFT from "../artifacts/contracts/NFT.sol/NFT.json";
 import NFTMarket from "../artifacts/contracts/NFTMarket.sol/NFTMarket.json";
 import Card from "../components/Card";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import { nftaddress, nftmarketaddress } from "../config";
@@ -86,6 +87,7 @@ export default function Home() {
           <Card key={i} image={nft.image} name={nft.name} price={nft.price} />
         ))}
       </div>
+      <Footer />
     </div>
   );
 }
