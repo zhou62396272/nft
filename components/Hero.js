@@ -8,12 +8,12 @@ const Hero = () => {
       <div>
         <div className="w-[1900px] h-[500px]">
           <Image
-            className="z-0 object-cover max-h-44 brightness-40 grayscale-60"
+            className="z-10 object-cover max-h-44 brightness-40 grayscale-60"
             src={nft1}
             objectFit="fill"
           />
         </div>
-        <div className="relative z-10">
+        <div className="relative z-20">
           <div className="px-6 text-gray-200 md:px-14 lg:px-20 -mt-96">
             {/* Hero */}
             <h1 className="-mb-2 font-serif text-5xl leading-tight md:text-7xl">

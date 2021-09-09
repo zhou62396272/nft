@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = ({ image, name, price }) => {
   return (
-    <div className="relative z-10 px-6 py-2 text-gray-800 bg-gray-100 sm:px-2 ">
+    <div className="relative z-40 px-6 py-2 text-gray-800 bg-gray-100 sm:px-2 ">
       {/* <h1 className="font-serif text-2xl">Latest artwork </h1> */}
 
       <section className="mt-3 duration-500 ease-in-out shadow-lg hover:-translate-y-1">
