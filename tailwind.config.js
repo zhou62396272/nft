@@ -14,6 +14,7 @@ module.exports = {
       colors: {
         dark: "#210a2c",
         slate: "#2a2a2a",
+        lightslate: "#4A5553",
       },
       fontSize: {
         tiny: ".65rem",

@@ -45,7 +45,6 @@ const Header = () => {
             Purchased Art
           </h1>
         </div>
-
         <div
           onClick={() => setSidebar(!sidebar)}
           className="px-3 py-3.5 cursor-pointer text-gray-700 hover:bg-gray-200 md:hidden"

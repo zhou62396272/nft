@@ -21,7 +21,9 @@ export default function Home() {
   }, []);
 
   async function loadNFTs() {
-    const provider = new ethers.providers.JsonRpcProvider();
+    const provider = new ethers.providers.JsonRpcProvider(
+      "https://rpc-mumbai.matic.today"
+    );
     const tokenContract = new ethers.Contract(nftaddress, NFT.abi, provider);
     const marketContract = new ethers.Contract(
       nftmarketaddress,
@@ -73,8 +75,8 @@ export default function Home() {
     loadNFTs();
   }
 
-  if (loadingState === "loaded" && !nfts.length)
-    return <h1 className="px-20 py-10 text-3xl">No items in marketplace</h1>;
+  // if (loadingState === "loaded" && !nfts.length)
+  //   return <h1 className="px-20 py-10 text-3xl">No items in marketplace</h1>;
   return (
     <div className="min-h-screen overflow-x-hidden ">
       <Head>
